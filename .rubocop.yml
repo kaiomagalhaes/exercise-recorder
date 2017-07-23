@@ -12,6 +12,9 @@ AllCops:
     - 'vendor/**/*'
     - 'db/**/*'
     - 'db/schema.rb'
+    - 'config/environments/*'
+    - 'Rakefile'
+    - 'Gemfile'
 Metrics/LineLength:
   Max: 120
 
